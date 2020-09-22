@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tnyandoro/newsweek-clone-bootstrap/issues"
   },
-  "homepage": "https://github.com/tnyandoro/newsweek-clone-bootstrap#readme"
+  "homepage": "https://github.com/tnyandoro/newsweek-clone-bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2"
+  }
 }
