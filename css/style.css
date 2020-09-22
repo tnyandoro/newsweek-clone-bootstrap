@@ -1,0 +1,47 @@
+@import url(https://tools-static.wmflabs.org/fontcdn/css?family=Merriweather);
+
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+.navbar-custom {
+  background: #ff0000;
+}
+.logo-font {
+  font-family:'Merriweather', serif";
+}
+.small-logo {
+  font-family: "Merriweather","Times New Roman", Times, serif;
+  color:#fff;
+  padding-top:10px;
+}
+
+.fas {
+  color:#fff;
+}
+.sub {
+  background-color:#E6CE00;
+  color: black;
+  font-weight: 700;
+  border-radius: 4em;
+}
+.login {
+  color:#fff;
+  font-size: medium;
+  font-weight: 700;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
