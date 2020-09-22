@@ -1,3 +1,5 @@
+@import url(https://tools-static.wmflabs.org/fontcdn/css?family=Merriweather);
+
 body {
   margin: 0;
   padding: 0;
@@ -5,4 +7,10 @@ body {
 
 .navbar {
   background: #ff0000;
+}
+.logo-font {
+  font-family: "font-family: 'Merriweather', serif";
+}
+.fas {
+  color:#fff;
 }

@@ -10,6 +10,8 @@
     <!-- Fonts -->
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://tools-static.wmflabs.org/fontcdn/css?family=Merriweather' rel='stylesheet' type='text/css'>
+    <script src="https://kit.fontawesome.com/fddcccfd38.js" crossorigin="anonymous"></script>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -19,11 +21,28 @@
 <body>
     <!-- NAV -->
 
-    <nav class="navbar navbar-light bg-inverse">
-        <a class="navbar-brand" href="#">
-          <img src="/docs/4.4/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
-        </a>
-      </nav>
+    <nav class="navbar navfixed navbar-light bg-inverse">
+        <div class="rednavbar white-nav-text">
+            <div class="weather">
+                <div class="weather-widget ">
+                    <span><i class="fas fa-cloud" aria-hidden="true"></i></span>
+                    <span>18 °C<i class="fas fa-thermometer-full" aria-hidden="true"></i></span>
+                </div>                
+            </div>
+        </div>        
+        <div class="logo">
+            <a href="#" class="navbar-brand">Newsweek</a>
+        </div>
+        <div class="login">
+            <button type="button" class="btn btn-default">login</button>
+        </div>
+        <div class="subscribe">
+            <button type="submit">Subscribe</button>
+        </div>
+        .
+        
+
+    </nav>
 
     <!-- Bootstrap cdns -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
