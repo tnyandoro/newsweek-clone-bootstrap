@@ -98,6 +98,20 @@ body {
 
 .top-stories {
   padding-top: 2%;
+  display: flex;
+  flex-direction: column;
+
+}
+.text {
+  color:red;
+  font-weight:700;
+  position: absolute;
+  border: 1px solid black;
+  margin-top:9.2em;
+  height: 5vh;
+  text-align: center;
+  background-color: #F2E8E9;
+  width: 4vw;
 }
 
 .top-heading {
@@ -113,14 +127,51 @@ body {
 .capt {
   font-size: 19px;
   font-weight: 800;
+  cursor: pointer;
 }
 
-.grid-gap {
-  grid-gap: 1em;
+.capt:hover {
+  text-decoration-color: red;
+  text-decoration-line: underline;
 }
-.grid-main {
+
+.container-grid-main {
   border: 1px solid blue;
-  width: 100vw;
+  width: 97%;
+  margin: auto;
+  -ms-grid-row-align: 20px;
+}
+
+.top-stories {
+  border: 1px solid green;
+  width: auto;
+}
+
+.featured {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid violet ;
+  
+  
+}
+
+.t-1 img{
+  width:100%;
+}
+.politics {
+  color:red;
+  font-weight:700;
+  position: absolute;
+  margin-top:21.6em;
+  height: 5vh;
+  text-align: center;
+  background-color: #F2E8E9;
+  width: 6vw;
+
+}
+
+.debate {
+  border: 1px solid black; 
 }
 
 .main {
