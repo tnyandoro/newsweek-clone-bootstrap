@@ -5,26 +5,28 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .c-white {
   color: white;
 }
+
 .c-black {
   color: black;
 }
 
 .navbar-custom {
   display: flex;
-  background: #F72210;
+  background: #f72210;
   justify-content: space-between;
-  height:18vh;
+  height: 18vh;
 }
 
 .login-subscribe {
-  display:flex;
+  display: flex;
   align-items: flex-end;
-  width:20vw;
+  width: 20vw;
   justify-content: space-between;
-  margin-top:20px;
+  margin-top: 20px;
 }
 
 .login {
@@ -32,11 +34,11 @@ body {
   font-weight: 700;
   background-color: red;
   color: whitesmoke;
-  border:0;
+  border: 0;
 }
 
 .sub {
-  background-color:#E6CE00;
+  background-color: #e6ce00;
   color: black;
   font-weight: 700;
   border-radius: 4em;
@@ -68,8 +70,8 @@ body {
   font-weight: 900;
   color: #000;
   border-right: 0.5px solid black;
-  padding:0 5px;
-  line-height: 0.5em ;
+  padding: 0.5px;
+  line-height: 0.5em;
 }
 
 .search-nav {
@@ -80,7 +82,7 @@ body {
 }
 
 .search-logo {
- margin-left: 8px;
+  margin-left: 8px;
 }
 
 .navbar-third {
@@ -94,9 +96,35 @@ body {
   font-weight: 900;
 }
 
+.top-stories {
+  padding-top: 2%;
+}
+
+.top-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: grey;
+}
+
+.img-story1 {
+  width: 100%;
+}
+
+.capt {
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.grid-gap {
+  grid-gap: 1em;
+}
+.grid-main {
+  border: 1px solid blue;
+  width: 100vw;
+}
 
 .main {
-  margin-top:0%;
+  margin-top: 0%;
 }
 
 .bd-placeholder-img {
