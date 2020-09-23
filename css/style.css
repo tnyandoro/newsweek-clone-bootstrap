@@ -3,43 +3,45 @@
 
 body {
 
+  margin: 0;
+  padding: 0;
+}
+.c-white {
+  color: white;
 }
 
 .navbar-custom {
   display: flex;
   background: #F72210;
-}
-.navbar {
-  margin-bottom: 0px;
-}
-
-.logo-font {
-  font-family:'Merriweather', serif";
-}
-.small-logo {
-  font-family: "Merriweather","Times New Roman", Times, serif;
-  color:#fff;
-  padding-top:10px;
-}
-.newsweek {
-
+  justify-content: space-between;
+  height:18vh;
 }
 
-.fas {
-  color:#fff;
+.login-subscribe {
+  display:flex;
+  align-items: flex-end;
+  width:20vw;
+  justify-content: space-between;
+  margin-top:20px;
 }
+.login {
+  font-size: 18px;
+  font-weight: 700;
+  background-color: red;
+  color: whitesmoke;
+  border:0;
+}
+
 .sub {
   background-color:#E6CE00;
   color: black;
   font-weight: 700;
   border-radius: 4em;
   border: 0;
+  padding: 2px;
+  width: 10vw;
 }
-.login {
-  color:#fff;
-  font-size: medium;
-  font-weight: 700;
-}
+
 .secnav {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 19px;
