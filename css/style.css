@@ -8,6 +8,9 @@ body {
 .c-white {
   color: white;
 }
+.c-black {
+  color: black;
+}
 
 .navbar-custom {
   display: flex;
@@ -41,12 +44,38 @@ body {
   width: 10vw;
 }
 
+.sub-nav {
+  height: 10vh;
+}
+
+.navbar-ul {
+  border-style: none;
+  height: 2.5em;
+  align-items: center;
+}
+.nav-link-a {
+  text-decoration-style: none;
+}
+
 .secnav {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 19px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 900;
   color: #000;
-  border-left: 1px solid black;
+  border-right: 0.5px solid black;
+  padding:0 5px;
+  line-height: 0.5em ;
+}
+
+.search-nav {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  color: #000;
+}
+
+.search-logo {
+ margin-left: 8px;
 }
 
 .main {
