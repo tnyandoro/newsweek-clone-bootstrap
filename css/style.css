@@ -26,6 +26,7 @@ body {
   justify-content: space-between;
   margin-top:20px;
 }
+
 .login {
   font-size: 18px;
   font-weight: 700;
@@ -44,17 +45,21 @@ body {
   width: 10vw;
 }
 
-.sub-nav {
-  height: 10vh;
+.navbar-sub {
+  height: 6.8vh;
 }
 
 .navbar-ul {
   border-style: none;
   height: 2.5em;
   align-items: center;
+  border-bottom: 0.5px solid gray;
+  width: 100%;
+  justify-content: space-evenly;
 }
-.nav-link-a {
-  text-decoration-style: none;
+
+.nav-link-a:hover {
+  color: red;
 }
 
 .secnav {
@@ -76,6 +81,11 @@ body {
 
 .search-logo {
  margin-left: 8px;
+}
+
+.navbar-third {
+  padding-left:3%;
+  border: 1px solid black;
 }
 
 .main {
