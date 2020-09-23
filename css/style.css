@@ -6,7 +6,8 @@ body {
 }
 
 .navbar-custom {
-  background: #ff0000;
+  display: flex;
+  background: #F72210;
 }
 .navbar {
   margin-bottom: 0px;
@@ -20,6 +21,9 @@ body {
   color:#fff;
   padding-top:10px;
 }
+.newsweek {
+
+}
 
 .fas {
   color:#fff;
@@ -29,6 +33,7 @@ body {
   color: black;
   font-weight: 700;
   border-radius: 4em;
+  border: 0;
 }
 .login {
   color:#fff;
