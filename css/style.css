@@ -151,13 +151,12 @@ body {
   display: flex;
   flex-direction: column;
   border: 1px solid violet ;
-  
-  
 }
 
 .t-1 img{
   width:100%;
 }
+
 .politics {
   color:red;
   font-weight:700;
@@ -168,6 +167,11 @@ body {
   background-color: #F2E8E9;
   width: 6vw;
 
+}
+.my-turn-grid {
+  display: grid;
+  grid-auto-columns: repeat(3,1fr);
+  gap:10px;
 }
 
 .debate {
