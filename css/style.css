@@ -168,10 +168,23 @@ body {
   width: 6vw;
 
 }
-.my-turn-grid {
+.myturn-grid {
+  display: flex;
+  flex-direction:row ;
+}
+.turn {
   display: grid;
   grid-auto-columns: repeat(3,1fr);
-  gap:10px;
+  border:1px solid green;
+}
+
+.myturn-row {
+  width:10vw;
+  height: auto;
+  border: 1px solid green;
+}
+.one {
+  width:100%;
 }
 
 .debate {
