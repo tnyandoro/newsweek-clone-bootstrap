@@ -18,7 +18,7 @@ body {
   display: flex;
   background: #f72210;
   justify-content: space-between;
-  height: 18vh;
+  height: 17vh;
 }
 
 .login-subscribe {
@@ -37,6 +37,9 @@ body {
   border: 0;
 }
 
+.sub-nav {
+  padding-top: 17vh;
+}
 .sub {
   background-color: #e6ce00;
   color: black;
