@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
-  margin: 0;
+  margin: 2%;
   padding: 0;
 }
 
@@ -153,8 +153,8 @@ body {
   border: 1px solid violet ;
 }
 
-.t-1 img{
-  width:100%;
+.img-topmid {
+  width: 100%;
 }
 
 .politics {
@@ -166,16 +166,6 @@ body {
   text-align: center;
   background-color: #F2E8E9;
   width: 6vw;
-
-}
-.myturn-grid {
-  display: flex;
-  flex-direction:row ;
-}
-.turn {
-  display: grid;
-  grid-auto-columns: repeat(3,1fr);
-  border:1px solid green;
 }
 
 .myturn-row {
@@ -183,8 +173,15 @@ body {
   height: auto;
   border: 1px solid green;
 }
+
 .one {
-  width:100%;
+  width: 100%;
+}
+
+.turntext {
+  color: grey;
+  font-size: medium;
+  font-weight: 600;
 }
 
 .debate {
@@ -193,6 +190,10 @@ body {
 
 .main {
   margin-top: 0%;
+}
+
+.morestory {
+  margin-bottom: 1px solid grey;
 }
 
 .bd-placeholder-img {

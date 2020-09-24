@@ -32,14 +32,14 @@
 
 <body>
 
-  <div class="container"></div>
-  <!-- NAV -->
+  <div class="container-fluid">
+    <!-- NAV -->
 
   <!-- Main container -->
-  <div class="nav-container">
+  <div class="nav-container-fluid">
     <!-- NAVBAR -->
     <!-- RED NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-custom c-white">
+    <nav class="navbar navbar-expand-lg navbar-custom c-white navbar-fixed-top">
       <div class="weather-date">
         <div class="weather"><i class='fas fa-cloud-moon-rain'></i> <span>16</span> <span>Johannesburg</span> <i
             class="fas fa-angle-right"></i></div>
@@ -125,7 +125,7 @@
           <a class="nav-link" href="#">DONALD TRUMP</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">JOEBIDEN</a>
+          <a class="nav-link" href="#">JOE BIDEN</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">CHINA</a>
@@ -134,7 +134,7 @@
           <a class="nav-link" href="#">CORONAVIRUS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">20202 ELECTION</a>
+          <a class="nav-link" href="#">2020 ELECTION</a>
         </li>
       </ul>
     </div>
@@ -143,7 +143,7 @@
 
   <!-- Main content starts here -->
 
-  <div class="container-grid-main">
+  <div class="container-fluid grid-main">
     <div class="row">
       <div class="col-3 top-stories">
           <h5 class="top-heading"> FEATURED STORIES</h5>
@@ -212,35 +212,161 @@
           <p>Trump renewed his narrative against the U.S. press at a campaign ralley in Pennsylvania, saying that it's a
             "beautiful sight" when journalists are removed from broadcasts.</p>
         </div>
-        
-       
-       
-       
-       
-
       </div>
-      <div class="col-6 featured">
+
+      <div class="container-fluid col-6 featured">
         <div class="t-1">
           <h5 class="top-heading">TOP-STORY</h5>
           <div class ="politics">POLITICS</div>
-          <img src ="images/t1.jpg" alt="t1">
+          <img src ="images/trump2.png" alt="t1" class="img-topmid">
           <h3 class="capt">Trump Praises Police Throwing Aside Journalist 'Like a Bag of Popcorn'</h3>
           <p>Trump renewed his narrative against the U.S. press at a campaign ralley in Pennsylvania, saying that it's a
             "beautiful sight" when journalists are removed from broadcasts.</p>
         </div>
-        <div class="myturn-grid">
-          <div class="turn">
-          <div class="myturn-row"><img src="images/b1.jpg" class="one"><p>loream ipsum</p></div>
-          <div class="myturn-row"><img src="images/b2.jpg" class="one"><p>loream ipsum</p></div>
-          <div class="myturn-row"><img src="images/b5.jpg"><p>loream ipsum</p></div>
+        <div class="container-fluid col myturn-grid">
+          <h5 class="top-heading">MY TURN</h5>
+          <div class="row">
+              <div class="col-4 myturn"><img src="images/b1.jpg" alt="image" class="one"><p class="turntext">Planning a Trip to One of NYC's Recently Opened Museums? What to Know</p></div>
+              <div class="col-4 myturn"><img src="images/b2.jpg" alt="image" class="one"><p class="turntext">Planning a Trip to One of NYC's Recently Opened Museums? What to Know</p></div>
+              <div class="col-4 myturn"><img src="images/b1.jpg" alt="image" class="one"><p class="turntext">Planning a Trip to One of NYC's Recently Opened Museums? What to Know</p></div> 
+          </div>  
+          <h5 class="top-heading">CULTURE & TRAVEL</h5>       
+          <div class="row">
+            <div class="col-4 myturn"><img src="images/b1.jpg" alt="image"  class="one"><p class="turntext">Planning a Trip to One of NYC's Recently Opened Museums? What to Know</p></div>
+            <div class="col-4 myturn"><img src="images/b2.jpg" alt="image"  class="one"><p class="turntext">Planning a Trip to One of NYC's Recently Opened Museums? What to Know</p></div>
+            <div class="col-4 myturn"><img src="images/b1.jpg" alt="image"  class="one"><p class="turntext">Planning a Trip to One of NYC's Recently Opened Museums? What to Know</p></div>
+          </div>
+          <div class="more-stories">
+            <h5 class="top-heading">MORE STORIES</h5>
+            <div class="row morestory">
+              <div class="col-3"><img class="one" src="images/story-2.png"  alt="Responsive image"></div>
+              <div class="col-9 image-text">
+              <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! Architecto  sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! est quam mollitia aliquid praesentium, maxime magnam. Recusandae eaque veniam tempora numquam optio atque expedita repudiandae. </p>
+            </div>
+          </div>
+        </div>
+        <hr>        
+        <div class="more-stories">
+          <div class="row morestory">
+            <div class="col-3"><img class="one" src="images/story-3.png"  alt="Responsive image"></div>
+            <div class="col-9 image-text">
+            <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! Architecto  sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! est quam mollitia aliquid praesentium, maxime magnam. Recusandae eaque veniam tempora numquam optio atque expedita repudiandae. </p>
+          </div>
+        </div>
       </div>
-      <div class="culture-travel">
-
-        <div class="myturn-row"><img src="images/b1.jpg" class="one"><p>loream ipsum</p></div>
-        <div class="myturn-row"><img src="images/b2.jpg" class="one"><p>loream ipsum</p></div>
-        <div class="myturn-row"><img src="images/b5.jpg"><p>loream ipsum</p></div>
+      <hr>
+      <div class="more-stories">
+        <div class="row morestory">
+          <div class="col-3"><img class="one" src="images/story-4.png"  alt="Responsive image"></div>
+          <div class="col-9 image-text">
+          <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! Architecto  sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! est quam mollitia aliquid praesentium, maxime magnam. Recusandae eaque veniam tempora numquam optio atque expedita repudiandae. </p>
+        </div>
       </div>
+    </div>
+    <hr>
+    <div class="more-stories">
+      <div class="row morestory">
+        <div class="col-3"><img class="one" src="images/story-5.png"  alt="Responsive image"></div>
+        <div class="col-9 image-text">
+        <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! Architecto  sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! est quam mollitia aliquid praesentium, maxime magnam. Recusandae eaque veniam tempora numquam optio atque expedita repudiandae. </p>
       </div>
+    </div>
+  </div>
+  <hr>
+  <div class="more-stories">
+    <div class="row morestory">
+      <div class="col-3"><img class="one" src="images/story-6.png"  alt="Responsive image"></div>
+      <div class="col-9 image-text">
+      <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! Architecto  sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! est quam mollitia aliquid praesentium, maxime magnam. Recusandae eaque veniam tempora numquam optio atque expedita repudiandae. </p>
+    </div>
+  </div>
+</div>
+<hr>
+  <div class="more-stories">
+    <div class="row morestory">
+      <div class="col-3"><img class="one" src="images/story-6.png"  alt="Responsive image"></div>
+      <div class="col-9 image-text">
+      <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! Architecto  sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! est quam mollitia aliquid praesentium, maxime magnam. Recusandae eaque veniam tempora numquam optio atque expedita repudiandae. </p>
+    </div>
+  </div>
+</div>
+<hr>
+  <div class="more-stories">
+    <div class="row morestory">
+      <div class="col-3"><img class="one" src="images/story-6.png"  alt="Responsive image"></div>
+      <div class="col-9 image-text">
+      <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! Architecto  sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! est quam mollitia aliquid praesentium, maxime magnam. Recusandae eaque veniam tempora numquam optio atque expedita repudiandae. </p>
+    </div>
+  </div>
+</div>
+<hr>
+  <div class="more-stories">
+    <div class="row morestory">
+      <div class="col-3"><img class="one" src="images/story-6.png"  alt="Responsive image"></div>
+      <div class="col-9 image-text">
+      <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! Architecto  sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! est quam mollitia aliquid praesentium, maxime magnam. Recusandae eaque veniam tempora numquam optio atque expedita repudiandae. </p>
+    </div>
+  </div>
+</div>
+<hr>
+  <div class="more-stories">
+    <div class="row morestory">
+      <div class="col-3"><img class="one" src="images/story-6.png"  alt="Responsive image"></div>
+      <div class="col-9 image-text">
+      <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! Architecto  sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! est quam mollitia aliquid praesentium, maxime magnam. Recusandae eaque veniam tempora numquam optio atque expedita repudiandae. </p>
+    </div>
+  </div>
+</div>
+<hr>
+  <div class="more-stories">
+    <div class="row morestory">
+      <div class="col-3"><img class="one" src="images/story-6.png"  alt="Responsive image"></div>
+      <div class="col-9 image-text">
+      <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! Architecto  sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! est quam mollitia aliquid praesentium, maxime magnam. Recusandae eaque veniam tempora numquam optio atque expedita repudiandae. </p>
+    </div>
+  </div>
+</div>
+<hr>
+  <div class="more-stories">
+    <div class="row morestory">
+      <div class="col-3"><img class="one" src="images/story-6.png"  alt="Responsive image"></div>
+      <div class="col-9 image-text">
+      <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! Architecto  sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! est quam mollitia aliquid praesentium, maxime magnam. Recusandae eaque veniam tempora numquam optio atque expedita repudiandae. </p>
+    </div>
+  </div>
+</div>
+<hr>
+  <div class="more-stories">
+    <div class="row morestory">
+      <div class="col-3"><img class="one" src="images/story-6.png"  alt="Responsive image"></div>
+      <div class="col-9 image-text">
+      <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! Architecto  sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! est quam mollitia aliquid praesentium, maxime magnam. Recusandae eaque veniam tempora numquam optio atque expedita repudiandae. </p>
+    </div>
+  </div>
+</div>
+<hr>
+  <div class="more-stories">
+    <div class="row morestory">
+      <div class="col-3"><img class="one" src="images/story-6.png"  alt="Responsive image"></div>
+      <div class="col-9 image-text">
+      <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! Architecto  sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! est quam mollitia aliquid praesentium, maxime magnam. Recusandae eaque veniam tempora numquam optio atque expedita repudiandae. </p>
+    </div>
+  </div>
+</div>
+      </div>      
     </div>
 
 
@@ -258,61 +384,8 @@
       </div>
     </div>
   </div>
-
-
-  <!--     
-<div class= "main-grid-container">
-      <div class="col-3 grid-featured">
-            <div class="row">
-              One of three columns
-            </div>
-            <div class="row">
-              One of three columns
-            </div>
-            <div class="row">
-              One of three columns
-            </div>
-          </div>
-
-          <div class="col-6 grid-story">
-            <div class="row">
-              One of three columns
-            </div>
-            <div class="row">
-              One of three columns
-            </div>
-            <div class="row">
-              One of three columns
-            </div>
-          </div>
-
-          <div class="col-3 grid-debate">
-            <div class="row">
-              One of three columns
-            </div>
-            <div class="row">
-              One of three columns
-            </div>
-            <div class="row">
-              One of three -3columns
-            </div>
-          </div>
-      </div>
-   -->
-
-
-
-
-
-
-
-  <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
-  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Bootstrap cdns -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
+  </div>  
+   <!-- Bootstrap cdns -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"crossorigin="anonymous"></script> 
 </body>
-
 </html>
