@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
-  margin: 2%;
+  margin: 0;
   padding: 0;
 }
 
@@ -100,7 +100,6 @@ body {
   padding-top: 2%;
   display: flex;
   flex-direction: column;
-
 }
 
 .text-us {
@@ -111,8 +110,8 @@ body {
   text-align: center;
   font-weight: 700;
   border: 1px solid black;
-  margin-top:9.2em;
-  height: 10vh;
+  height: 20vh;
+  align-items: flex-end ;
 }
 
 .top-heading {
@@ -187,6 +186,29 @@ body {
 
 .debate {
   border: 1px solid black; 
+}
+.no-gutters {
+
+  line-height: 4px;
+}
+.d-img {
+  
+  margin-top:1em;
+}
+.d-img img {
+  width:4em;
+}
+.card-title {
+  width: 14vw;
+
+  font-weight:600;
+  font-size: 14px;
+  line-height: 0.9em;
+  margin-bottom:1em;
+  
+}
+.card-text {
+  font-size: 10px;
 }
 
 .main {
