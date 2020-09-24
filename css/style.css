@@ -313,6 +313,12 @@ line-height: 1.2em;
   font-weight: bold;
 }
 
+.red-text {
+  font-family: "robot", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 19px;
+  color: #f72210;
+}
+
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
