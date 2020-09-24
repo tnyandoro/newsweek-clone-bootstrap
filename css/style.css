@@ -273,13 +273,43 @@ line-height: 1.2em;
   display: flex;
   width:20%;
   margin:auto;
+  justify-content: center;
+  align-items: center;
 }
-.maga-text {
 
+.maga-text {
   font-weight:700;
   margin-left: 1em;
-  padding-top:0.3em;
+  padding-top:0.8em;
 }
+
+.container-fluid-magazine{
+  border-top: 1px solid gray;
+  margin-top:0.1em;
+  padding-top:0.6em;
+}
+.f-n{
+  display:flex;
+  margin-top:0.4em ;
+
+}
+.features {
+  background-color: red;
+  color: #F2E8E9;
+  font-weight:700;
+  padding:0.2em;
+}
+.news {
+  background-color: white;
+  color: red;
+  font-weight:700;
+  padding:0.2em;
+}
+
+.card-title-magazine {
+  font-weight: bold;
+}
+
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
