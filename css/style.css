@@ -102,16 +102,17 @@ body {
   flex-direction: column;
 
 }
-.text {
-  color:red;
-  font-weight:700;
+
+.text-us {
   position: absolute;
+  background-color: #F2E8E9;
+  color: red;
+  width: 3vw;
+  text-align: center;
+  font-weight: 700;
   border: 1px solid black;
   margin-top:9.2em;
-  height: 5vh;
-  text-align: center;
-  background-color: #F2E8E9;
-  width: 4vw;
+  height: 10vh;
 }
 
 .top-heading {
