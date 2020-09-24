@@ -187,25 +187,46 @@ body {
 .debate {
   border: 1px solid black; 
 }
-.no-gutters {
-
+.no-gutters,
+.no-gutters-1 {
+  border-top:double;
   line-height: 4px;
 }
-.d-img {
-  
+.no-gutters-1 {
+  height: 20vh;
+}
+.l-img {
   margin-top:1em;
 }
-.d-img img {
+.l-img img {
   width:4em;
 }
 .card-title {
   width: 14vw;
-
   font-weight:600;
   font-size: 14px;
   line-height: 0.9em;
   margin-bottom:1em;
   
+}
+.title-left {
+  width:10vw;
+margin-left: -0.2em;
+font-weight: 600;
+  border:1px solid green;
+line-height: 1.2em;
+    border:1px solid red;
+    background-color: salmon;
+   
+}
+.r-img {
+  margin-top:1em;
+  width:100%;
+  border:1px solid green;
+
+}
+.r-img img {
+  width:4em;
 }
 .card-text {
   font-size: 10px;
@@ -227,7 +248,15 @@ body {
   -ms-user-select: none;
   user-select: none;
 }
-
+.sign-up {
+  background-color: lightgray;
+  margin:1em 0 0 0 ;
+  padding:1em;
+  border-radius:10px;
+}
+.form-row {
+  
+}
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
