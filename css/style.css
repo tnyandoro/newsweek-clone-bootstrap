@@ -324,12 +324,16 @@ body {
   font-size: 19px;
   color: #f72210;
 }
+
 .cardheight {
    height: 100%;
 }
 
 .bcontent {
   margin-top: 10px;
+}
+.card-p {
+  height: 150px;
 }
 
 @media (min-width: 768px) {
