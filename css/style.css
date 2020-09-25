@@ -105,6 +105,10 @@ body {
   flex-direction: column;
 }
 
+.tag {
+  position: relative;
+}
+
 .text-us {
   position: absolute;
   background-color: #f2e8e9;
@@ -113,8 +117,8 @@ body {
   text-align: center;
   font-weight: 700;
   border: 1px solid black;
-  height: 20vh;
-  align-items: flex-end;
+  left: 0;
+  bottom: 0;
 }
 
 .top-heading {
@@ -155,6 +159,11 @@ body {
   flex-direction: column;
   border: 1px solid violet;
 }
+
+/* 
+.first {
+  position: relative;
+} */
 
 .img-topmid {
   width: 100%;
