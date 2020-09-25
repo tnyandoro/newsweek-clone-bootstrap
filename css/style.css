@@ -1,5 +1,5 @@
 @import url("https://tools-static.wmflabs.org/fontcdn/css?family=Merriweather");
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 body {
   margin: 0;
@@ -107,14 +107,14 @@ body {
 
 .text-us {
   position: absolute;
-  background-color: #F2E8E9;
+  background-color: #f2e8e9;
   color: red;
   width: 3vw;
   text-align: center;
   font-weight: 700;
   border: 1px solid black;
   height: 20vh;
-  align-items: flex-end ;
+  align-items: flex-end;
 }
 
 .top-heading {
@@ -153,7 +153,7 @@ body {
 .featured {
   display: flex;
   flex-direction: column;
-  border: 1px solid violet ;
+  border: 1px solid violet;
 }
 
 .img-topmid {
@@ -161,18 +161,18 @@ body {
 }
 
 .politics {
-  color:red;
-  font-weight:700;
+  color: red;
+  font-weight: 700;
   position: absolute;
-  margin-top:21.6em;
+  margin-top: 21.6em;
   height: 5vh;
   text-align: center;
-  background-color: #F2E8E9;
+  background-color: #f2e8e9;
   width: 6vw;
 }
 
 .myturn-row {
-  width:10vw;
+  width: 10vw;
   height: auto;
   border: 1px solid green;
 }
@@ -188,48 +188,46 @@ body {
 }
 
 .debate {
-  border: 1px solid black; 
+  border: 1px solid black;
 }
 .no-gutters,
 .no-gutters-1 {
-  border-top:double;
+  border-top: double;
   line-height: 4px;
 }
 .no-gutters-1 {
   height: 20vh;
 }
 .l-img {
-  margin-top:1em;
+  margin-top: 1em;
 }
 .l-img img {
-  width:4em;
+  width: 4em;
 }
 .card-title {
   width: 14vw;
-  font-weight:600;
+  font-weight: 600;
   font-size: 14px;
   line-height: 0.9em;
-  margin-bottom:1em;
-  
+  margin-bottom: 1em;
 }
 .title-left {
-  width:10vw;
-margin-left: -0.2em;
-font-weight: 600;
-  border:1px solid green;
-line-height: 1.2em;
-    border:1px solid red;
-    background-color: salmon;
-   
+  width: 10vw;
+  margin-left: -0.2em;
+  padding: 10px;
+  font-weight: 600;
+  border: 1px solid green;
+  line-height: 1.2em;
+  border: 1px solid red;
+  background-color: salmon;
 }
 .r-img {
-  margin-top:1em;
-  width:100%;
-  border:1px solid green;
-
+  margin-top: 1em;
+  width: 100%;
+  border: 1px solid green;
 }
 .r-img img {
-  width:4em;
+  width: 4em;
 }
 .card-text {
   font-size: 10px;
@@ -254,13 +252,13 @@ line-height: 1.2em;
 
 .sign-up {
   background-color: lightgray;
-  margin:1em 0 0 0 ;
-  padding:1em;
-  border-radius:10px;
+  margin: 1em 0 0 0;
+  padding: 1em;
+  border-radius: 10px;
 }
 
-.debate-cards{
-  margin:1em 0 0 0 ;
+.debate-cards {
+  margin: 1em 0 0 0;
 }
 
 .card-title-debate {
@@ -268,45 +266,44 @@ line-height: 1.2em;
 }
 
 .text-center-magazine {
-  width:50%;
+  width: 50%;
   margin: auto;
 }
 
 .maga-heading {
   display: flex;
-  width:20%;
-  margin:auto;
+  width: 20%;
+  margin: auto;
   justify-content: center;
   align-items: center;
 }
 
 .maga-text {
-  font-weight:700;
+  font-weight: 700;
   margin-left: 1em;
-  padding-top:0.8em;
+  padding-top: 0.8em;
 }
 
-.container-fluid-magazine{
+.container-fluid-magazine {
   border-top: 1px solid gray;
-  margin-top:0.1em;
-  padding-top:0.6em;
+  margin-top: 0.1em;
+  padding-top: 0.6em;
 }
-.f-n{
-  display:flex;
-  margin-top:0.4em ;
-
+.f-n {
+  display: flex;
+  margin-top: 0.4em;
 }
 .features {
   background-color: red;
-  color: #F2E8E9;
-  font-weight:700;
-  padding:0.2em;
+  color: #f2e8e9;
+  font-weight: 700;
+  padding: 0.2em;
 }
 .news {
   background-color: white;
   color: red;
-  font-weight:700;
-  padding:0.2em;
+  font-weight: 700;
+  padding: 0.2em;
 }
 
 .card-title-magazine {
@@ -317,6 +314,13 @@ line-height: 1.2em;
   font-family: "robot", Verdana, Geneva, Tahoma, sans-serif;
   font-size: 19px;
   color: #f72210;
+}
+.cardheight {
+   height: 100%;
+}
+
+.bcontent {
+  margin-top: 10px;
 }
 
 @media (min-width: 768px) {

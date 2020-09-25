@@ -18,5 +18,9 @@
   "homepage": "https://github.com/tnyandoro/newsweek-clone-bootstrap#readme",
   "dependencies": {
     "bootstrap": "^4.5.2"
+  },
+  "devDependencies": {
+    "stylelint": "^13.7.1",
+    "stylelint-config-recommended": "^3.0.0"
   }
 }
