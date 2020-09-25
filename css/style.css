@@ -335,12 +335,7 @@ body {
 .card-p {
   height: 150px;
 }
-.ul-list {
-  border:1px solid green ;
-}
-.li-list{
-  border:1px solid red
-}
+
 
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
