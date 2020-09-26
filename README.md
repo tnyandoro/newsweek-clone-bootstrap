@@ -1,13 +1,13 @@
-# Bubble Sort
+# Newsweek Clone
 
-> For this project, we created two **sorting algorithms** that use the [bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) method. 
-
+> For this project, we are required to build a replica of the news site Newsweek.com using the Bootstrap framework.
 This side-by-side comparative method is seen in the GIF image below.
 
-![image](.github/animation.gif)
 
-![screenshot](.github/bubble_sort.png)
-![screenshot](.github/bubble_sort_by2.png)
+
+![Newsweek  original](https://user-images.githubusercontent.com/30318155/94343273-482ba600-0017-11eb-9107-8a54d3889a6b.png)
+
+![newsweek clone](https://user-images.githubusercontent.com/30318155/94343329-a2c50200-0017-11eb-85e9-a95930509233.png)
 
 > The second bubble sort method sorts an array of strings by the length of each element using the "yield" keyword and a code block.
 
