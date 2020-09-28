@@ -11,7 +11,8 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href='https://tools-static.wmflabs.org/fontcdn/css?family=Merriweather' rel='stylesheet' type='text/css'>
-
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <!-- Fontawesome -->
 
   <script src="https://kit.fontawesome.com/fddcccfd38.js" crossorigin="anonymous"></script>
@@ -38,22 +39,27 @@
     <!-- NAV -->
 
     <!-- Main container -->
-    <div class="nav-container-fluid ">
+    <div class="nav-container-fluid justify-content-between">
       <!-- NAVBAR -->
       <!-- RED NAVBAR -->
-      <nav class="navbar fixed-top navbar-expand-lg navbar-custom c-white ">
-        <div class="weather-date d-none d-sm-block">
-          <div class="weather"><i class='fas fa-cloud-moon-rain'></i> <span>16</span> <span>Johannesburg</span> <i
-              class="fas fa-angle-right"></i></div>
+      <nav class="d-flex navbar justify-content-between col-sm-12 fixed-top navbar-expand-lg navbar-custom c-white ">
+        <div class="weather-date d-none d-lg-block">
+          <div class="weather">
+          <i class='fas fa-cloud-moon-rain'></i>
+          <span class="">16</span> 
+          <span class="">Johannesburg</span> 
+          <i class="fas fa-angle-right"></i></div>
           <div class="date"> Wed, Sep 23, 2020 </div>
         </div>
-        <div class="newsweek">
-          <h3 class=" text-danger d-none d-sm-block d-md-none">Newsweek</h3>
-          <img class="newsweek w-75 d-none d-md-block" src="images/logo.png" alt="logo-image">
+        <div class="d-flex newsweek">
+          <h1 class="text-white d-sm-block d-md-block d-lg-none">Newsweek</h1>
+          <img class="newsweek w-75 d-none d-lg-block" src="images/logo.png" alt="logo-image">
         </div>
-        <div class="login-subscribe btn ">
-          <button class="login btn-default">LOGIN</button>
-          <button type="button" class="btn btn-warning sub nbgn">SUBSCRIBE<i class="fas c-white fa-angle-right"></i></button>
+          <div class="d-flex align-items-center justify-content-end w-50 login-subscribe btn">
+            <i class="d-sm-block  material-icons">person</i>
+          <button class="d-flex d-none  d-lg-block  justify-content-start login btn-default">LOGIN</button>
+          <button type="button" class="btn col-sm-3 col-md-6 col-lg-3 btn-warning sub nbgn">SUBSCRIBE<i class="fas c-white fa-angle-right"></i></button>
+          <i class=" d-lg-none d-sm-block  d-md-block material-icons">menu</i>
         </div>
       </nav>
     </div>
@@ -61,9 +67,10 @@
 
 <div>
   <nav class=" sub-nav navbar-expand-lg navbar-light bg-light">
+    <!--
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navText"
       aria-controls="navText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>-->
     </button>
     <div class="collapse navbar-collapse navText">
       <ul class="navbar-ul c-black navbar-nav mr-auto">
@@ -456,7 +463,7 @@
           <div class="t-1">
             <h5 class="top-heading">DEBATE</h5>
           </div>
-          <div class="card mb-3 col-sm-12 style="max-width: 200%;">
+          <div class="card mb-3 col-sm-12" style="max-width: 200%;">
             <div class="row no-gutters">
               <div class="l-img col-md-3">
                 <img src="images/d-1.png" class="card-img" alt="...">

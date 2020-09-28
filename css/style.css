@@ -26,11 +26,8 @@ body {
 }
 
 .login-subscribe {
-  display: flex;
-  align-items: flex-end;
-  width: 20vw;
-  justify-content: space-between;
   margin-top: 20px;
+  border:1px solid white;
 }
 
 .login {
@@ -50,8 +47,8 @@ body {
   font-weight: 700;
   border-radius: 4em;
   border: 0;
-  padding: 2px;
-  width: 10vw;
+  
+
 }
 
 .navbar-sub {
