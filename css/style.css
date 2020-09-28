@@ -27,7 +27,7 @@ body {
 
 .login-subscribe {
   margin-top: 20px;
-  border:1px solid white;
+
 }
 
 .login {
@@ -51,9 +51,6 @@ body {
 
 }
 
-.navbar-sub {
-  height: 6.8vh;
-}
 
 .navbar-ul {
   border-style: none;
@@ -225,7 +222,9 @@ body {
 .l-img {
   margin-top: 1em;
 }
-.l-img img {
+.l-img,
+.r-img
+ img {
   width: 4em;
 }
 .card-title {
