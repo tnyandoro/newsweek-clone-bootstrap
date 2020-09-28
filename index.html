@@ -21,7 +21,6 @@
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
 
 
 
@@ -35,7 +34,7 @@
 
 <body>
 
-  <div class="container-fluid">
+  <div class="container-fluid mx-auto">
     <!-- NAV -->
 
     <!-- Main container -->
@@ -43,17 +42,17 @@
       <!-- NAVBAR -->
       <!-- RED NAVBAR -->
       <nav class="navbar fixed-top navbar-expand-lg navbar-custom c-white ">
-        <div class="weather-date">
+        <div class="weather-date d-none d-sm-block">
           <div class="weather"><i class='fas fa-cloud-moon-rain'></i> <span>16</span> <span>Johannesburg</span> <i
               class="fas fa-angle-right"></i></div>
           <div class="date"> Wed, Sep 23, 2020 </div>
         </div>
-        <div class="newsweek">
-          <img src="images/logo.png" alt="logo-image" style="width: 100%;">
+        <div class="newsweek d-xs-none ">
+          <img class="newsweek w-75" src="images/logo.png" alt="logo-image">
         </div>
-        <div class="login-subscribe btn mr">
+        <div class="login-subscribe btn ">
           <button class="login btn-default">LOGIN</button>
-          <button type="submit" class="sub ">SUBSCRIBE <i class="fas c-white fa-angle-right"></i></button>
+          <button type="button" class="btn btn-warning sub nbgn">SUBSCRIBE<i class="fas c-white fa-angle-right"></i></button>
         </div>
 
       </nav>
@@ -65,11 +64,11 @@
 
 
     <nav class=" sub-nav navbar-expand-lg navbar-light bg-light">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navText"
+        aria-controls="navText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarText">
+      <div class="collapse navbar-collapse navText">
         <ul class="navbar-ul c-black navbar-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
@@ -105,7 +104,7 @@
             <a class="nav-link" href="#">Weather</a>
           </li>
           <li class="nav-item search-nav">
-            <a class="nav-link" href="#">Search<i class="search-logo fa fa-search"></i></a>
+            <a class="nav-link hidden-sm" href="#">Search<i class="search-logo fa fa-search"></i></a>
           </li>
 
         </ul>
@@ -116,13 +115,15 @@
 
     <!-- Main content starts here -->
 
+    <!-- left-section -->
+
     <div class="container-fluid grid-main">
       <div class="row">
 
-        <div class="col-sm-1 col-md-3 col-lg-3 top-stories">
+        <div class="col-sm-1 col-md-2 col-lg-3 top-stories">
           <h5 class="top-heading"> FEATURED STORIES</h5>
           <div class="first">
-            <div class="tag">
+            <div class="tag w-100 mb-2">
               <img src="images/trump1.jpg" alt="trump1" class="img-story1">
               <span class="text-us">U.S.</span>
             </div>
@@ -132,7 +133,7 @@
               "beautiful sight" when journalists are removed from broadcasts.</p>
           </div>
           <div>
-            <div class="tag">
+            <div class="tag w-100 mb-2">
             <img src="images/trump1.jpg" alt="trump1" class="img-story1">
             <span class="text-us">U.S.</span>
           </div>
@@ -142,7 +143,7 @@
               "beautiful sight" when journalists are removed from broadcasts.</p>
           </div>
           <div>
-            <div class="tag">
+            <div class="tag w-100 mb-2">
               <img src="images/us1.jpg" alt="trump1" class="img-story1">
               <span class="text-us">U.S.</span>
             </div>
@@ -152,7 +153,7 @@
               "beautiful sight" when journalists are removed from broadcasts.</p>
           </div>
           <div>
-            <div class="tag">
+            <div class="tag w-100 mb-2">
               <img src="images/us2.jpg" alt="trump1" class="img-story1">
               <span class="text-us">U.S.</span>
             </div>
@@ -162,7 +163,7 @@
               "beautiful sight" when journalists are removed from broadcasts.</p>
           </div>
           <div>
-            <div class="tag">
+            <div class="tag w-100 mb-2">
               <img src="images/us3.jpg" alt="trump1" class="img-story1">
               <span class="text-us">U.S.</span>
             </div>
@@ -172,7 +173,7 @@
               "beautiful sight" when journalists are removed from broadcasts.</p>
           </div>
           <div>
-            <div class="tag">
+            <div class="tag w-100 mb-2">
               <img src="images/us1.jpg" alt="trump1" class="img-story1">
               <span class="text-us">U.S.</span>
             </div>
@@ -182,7 +183,7 @@
               "beautiful sight" when journalists are removed from broadcasts.</p>
           </div>
           <div>
-            <div class="tag">
+            <div class="tag w-100 mb-2">
               <img src="images/us3.jpg" alt="trump1" class="img-story1">
               <span class="text-us">U.S.</span>
             </div>
@@ -192,7 +193,7 @@
               "beautiful sight" when journalists are removed from broadcasts.</p>
           </div>
           <div>
-            <div class="tag">
+            <div class="tag w-100 mb-2">
               <img src="images/us2.jpg" alt="trump1" class="img-story1">
               <span class="text-us">U.S.</span>
             </div>
@@ -202,7 +203,7 @@
               "beautiful sight" when journalists are removed from broadcasts.</p>
           </div>
           <div>
-            <div class="tag">
+            <div class="tag w-100 mb-2">
               <img src="images/us3.jpg" alt="trump1" class="img-story1">
               <span class="text-us">U.S.</span>
             </div>
@@ -212,7 +213,9 @@
           </div>
         </div>
 
-        <div class="col-sm-1 col-md-6 col-lg-6 container-fluid featured sticky-top">
+        <!-- left-section-ends -->
+
+        <div class="col-sm-12 col-md-6  container-fluid featured sticky-top">
           <div class="t-1">
             <h5 class="top-heading">TOP-STORY</h5>
             <div class="politics">POLITICS</div>
@@ -225,7 +228,7 @@
               a
               "beautiful sight" when journalists are removed from broadcasts.</p>
           </div>
-          <div class="container-fluid col myturn-grid">
+          <div class="container col-sm-12 myturn-grid">
             <h5 class="top-heading">MY TURN</h5>
             <div class="row">
               <div class="col-4 myturn">
