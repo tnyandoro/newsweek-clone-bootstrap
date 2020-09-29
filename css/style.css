@@ -152,7 +152,6 @@ body {
 .container-grid-main {
   width: 97%;
   margin: auto;
-  -ms-grid-row-align: 20px;
 }
 
 .featured {
@@ -245,7 +244,7 @@ body {
 }
 
 .morestory {
-  margin-bottom: 1px solid grey;
+  margin-bottom: 1px;
 }
 
 .bd-placeholder-img {
