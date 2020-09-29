@@ -9,7 +9,7 @@ This side-by-side comparative method is seen in the GIF image below.
 
 ![newsweek clone](https://user-images.githubusercontent.com/30318155/94343329-a2c50200-0017-11eb-85e9-a95930509233.png)
 
-> The project mimicks the appearnce and behavior of the actual site
+> The project mimicks the appearnce and behavior of the actual site. The project has been done with HTML5, CSS3 and bootstrap 4 for responsiveness.
 
 ## Built With
 - HTML5
