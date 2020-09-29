@@ -335,3 +335,25 @@ body {
 .card-p {
   height: 150px;
 }
+@media only screen and (max-width: 340px) {
+  .navbar{
+    
+    height: 15vh;
+    
+  }
+  .text-340 {
+    font-size: 18px;
+    width:auto;
+    height: 7vh;
+  }
+  
+  .sub-340 {
+    line-height: 10px;
+    font-size: small;
+  } 
+
+  .login-items-340 {
+    margin-top:-2%;
+    line-height: 10px;
+  }
+}
