@@ -335,42 +335,42 @@ body {
 .card-p {
   height: 150px;
 }
+
 @media only screen and (max-width: 340px) {
-  .navbar{
-    
+  .navbar {
     height: 15vh;
-    
   }
+
   .text-340 {
     font-size: 18px;
-    width:auto;
+    width: auto;
     height: 7vh;
   }
 
   .sub-340 {
     line-height: 10px;
     font-size: small;
-  } 
+  }
 
   .login-items-340 {
-    margin-top:-2%;
+    margin-top: -2%;
     line-height: 10px;
   }
+
   .sub-img-340 {
     position: relative;
   }
 
   .text-sm-override {
     position: absolute;
-  background-color: #f2e8e9;
-  color: red;
-  width: 3vw;
-  text-align: center;
-  font-weight: 700;
-  border: 1px solid black;
-  left: 0;
-  z-index: 1;
-  margin-top: -120px;
+    background-color: #f2e8e9;
+    color: red;
+    width: 3vw;
+    text-align: center;
+    font-weight: 700;
+    border: 1px solid black;
+    left: 0;
+    z-index: 1;
+    margin-top: -120px;
   }
-
 }
