@@ -369,7 +369,8 @@ body {
   font-weight: 700;
   border: 1px solid black;
   left: 0;
-  bottom: 20px;
+  z-index: 1;
+  margin-top: -120px;
   }
 
 }
