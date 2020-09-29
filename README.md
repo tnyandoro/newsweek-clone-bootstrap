@@ -12,16 +12,19 @@ This side-by-side comparative method is seen in the  images below.
 > The project mimicks the appearnce and behavior of the actual site. The project has been done with HTML5, CSS3 and bootstrap 4 for responsiveness.
 
 ## Built With
+
 - HTML5
 - CSS3
-- BOOTSTRAP
+- BOOTSTRAP 4
 
 ## Live Demo
 
 To quickly see our project in action, visit the [live demo](https://inspiring-mestorf-3a414e.netlify.app) on netlify.
 
 ## Getting Started
+
 This project is developed in HTML, CSS and bootstrap and will run in a web browser.
+
 ### Prerequisites
 
 To get this project up and running, you must have a browser on your computer.
