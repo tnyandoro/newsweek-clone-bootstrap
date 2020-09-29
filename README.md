@@ -1,7 +1,7 @@
 # Newsweek Clone
 
-> For this project, we are required to build a replica of the news site Newsweek.com using the Bootstrap framework.
-This side-by-side comparative method is seen in the GIF image below.
+> For this project, we are required to build a replica of the newsweek magazine site Newsweek.com using the Bootstrap framework.
+This side-by-side comparative method is seen in the  images below.
 
 
 
@@ -18,10 +18,10 @@ This side-by-side comparative method is seen in the GIF image below.
 
 ## Live Demo
 
-To quickly see our project in action, visit the [live demo](https://repl.it/@cristianCeamatu/Bubble-Sort#main.rb) on repl.it.
+To quickly see our project in action, visit the [live demo](https://inspiring-mestorf-3a414e.netlify.app) on netlify.
 
 ## Getting Started
-
+This project is developed in HTML, CSS and bootstrap and will run in a web browser.
 ### Prerequisites
 
 To get this project up and running, you must have a browser on your computer.
