@@ -24,7 +24,6 @@ body {
 
 .login-subscribe {
   margin-top: 20px;
-
 }
 
 .login {
@@ -38,16 +37,14 @@ body {
 .sub-nav {
   padding-top: 17vh;
 }
+
 .sub {
   background-color: #e6ce00;
   color: black;
   font-weight: 700;
   border-radius: 4em;
   border: 0;
-  
-
 }
-
 
 .navbar-ul {
   border-style: none;
@@ -98,6 +95,7 @@ body {
   padding-top: 2%;
   display: flex;
   flex-direction: column;
+  width: auto;
 }
 
 .tag {
@@ -152,27 +150,15 @@ body {
 }
 
 .container-grid-main {
-  border: 1px solid blue;
   width: 97%;
   margin: auto;
   -ms-grid-row-align: 20px;
 }
 
-.top-stories {
-  border: 1px solid green;
-  width: auto;
-}
-
 .featured {
   display: flex;
   flex-direction: column;
-  border: 1px solid violet;
 }
-
-/* 
-.first {
-  position: relative;
-} */
 
 .img-topmid {
   width: 100%;
@@ -192,7 +178,6 @@ body {
 .myturn-row {
   width: 10vw;
   height: auto;
-  border: 1px solid green;
 }
 
 .one {
@@ -205,25 +190,25 @@ body {
   font-weight: 600;
 }
 
-.debate {
-  border: 1px solid black;
-}
 .no-gutters,
 .no-gutters-1 {
   border-top: double;
   line-height: 4px;
 }
+
 .no-gutters-1 {
   height: 20vh;
 }
+
 .l-img {
   margin-top: 1em;
 }
+
 .l-img,
-.r-img
- img {
+.r-img img {
   width: 2em;
 }
+
 .card-title {
   width: 14vw;
   font-weight: 600;
@@ -231,24 +216,26 @@ body {
   line-height: 0.9em;
   margin-bottom: 1em;
 }
+
 .title-left {
   width: 10vw;
   margin-left: -0.2em;
   padding: 10px;
   font-weight: 600;
-  border: 1px solid green;
   line-height: 1.2em;
-  border: 1px solid red;
   background-color: salmon;
 }
+
 .r-img {
   margin-top: 1em;
   width: 100%;
   border: 1px solid green;
 }
+
 .r-img img {
   width: 4em;
 }
+
 .card-text {
   font-size: 10px;
 }
@@ -309,16 +296,19 @@ body {
   margin-top: 0.1em;
   padding-top: 0.6em;
 }
+
 .f-n {
   display: flex;
   margin-top: 0.4em;
 }
+
 .features {
   background-color: red;
   color: #f2e8e9;
   font-weight: 700;
   padding: 0.2em;
 }
+
 .news {
   background-color: white;
   color: red;
@@ -337,75 +327,13 @@ body {
 }
 
 .cardheight {
-   height: 100%;
+  height: 100%;
 }
 
 .bcontent {
   margin-top: 10px;
 }
+
 .card-p {
   height: 150px;
 }
-
-@media(max-width: 768px) {
-  button.full-width {
-      width: 100%;  
-  }
-  
-}
-
-/* 
-
-@media (min-width: 768px) {
- {
-    font-size: 3.5rem;
-  }
-} */
-/* Mobile screen */
-/* 
- @media only screen and (max-width: 768px) {
-  .editor-section,
-  .us-sec,
-  .footer-top-left,
-  .section-1 {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .left-section,
-  .middle-section,
-  .right-section {
-    width: 100%;
-  }
-
-  .sub-img {
-    display: none;
-  }
-
-  .flex {
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-  }
-
-  .in-depth {
-    flex-direction: column;
-    justify-content: center;
-    height: auto;
-  }
-
-  .subscribe-descrb {
-    z-index: 5;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    gap: 10%;
-    justify-content: center;
-    text-align: center;
-    width: 70%;
-  }
-
-  .indepth-imgs {
-    align-self: flex-start;
-    width: 30%;
-  } */
