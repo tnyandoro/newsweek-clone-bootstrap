@@ -52,7 +52,7 @@ The best way you can contribute to this project is by submitting an [issue](http
 
 ## Show your support
 
-If you've read this far, you must like the project! Give us a ⭐️!
+If you have read this far, you must like the project! Give us a ⭐️!
 
 ## Acknowledgments
 
