@@ -366,6 +366,11 @@ body {
   list-style: none;
 }
 
+.news img {
+  width: 60vw;
+  height: 28vh;
+}
+
 @media only screen and (max-width: 340px) {
   .navbar {
     height: 15vh;
