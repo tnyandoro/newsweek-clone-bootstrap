@@ -11,6 +11,12 @@ body {
   color: white;
 }
 
+.b-white {
+  color: #fff;
+  font-size: 20x;
+  font-weight: 700;
+}
+
 .c-black {
   color: black;
 }
