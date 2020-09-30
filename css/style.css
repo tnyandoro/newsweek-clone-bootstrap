@@ -13,7 +13,7 @@ body {
 
 .b-white {
   color: #fff;
-  font-size: 20x;
+  font-size: 19px;
   font-weight: 700;
 }
 
@@ -41,7 +41,7 @@ body {
   font-weight: 700;
   background-color: #f72210;
   color: whitesmoke;
-  border: 0; 
+  border: 0;
 }
 
 .sub-nav {
