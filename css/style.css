@@ -19,19 +19,23 @@ body {
   display: flex;
   background: #f72210;
   justify-content: space-between;
-  height: 17vh;
+  height: 13vh;
 }
 
 .login-subscribe {
   margin-top: 20px;
 }
 
+.bg-custom {
+  background-color: #f72210;
+}
+
 .login {
   font-size: 18px;
   font-weight: 700;
-  background-color: red;
+  background-color: #f72210;
   color: whitesmoke;
-  border: 0;
+  border: 0; 
 }
 
 .sub-nav {
