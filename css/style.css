@@ -336,6 +336,21 @@ body {
   height: 150px;
 }
 
+.flow {
+  position: relative;
+  text-align: center;  
+  }
+  
+  .flow img {
+  
+    width: 100%;
+  }
+  .flow-text {
+    position: absolute;
+    text-align: center;
+    bottom: 75px;
+  }
+
 @media only screen and (max-width: 340px) {
   .navbar {
     height: 15vh;
