@@ -2,14 +2,1399 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Newsweek clone</title>
+
+  <!-- Fonts -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://tools-static.wmflabs.org/fontcdn/css?family=Merriweather' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- Fontawesome -->
+
+  <script src="https://kit.fontawesome.com/fddcccfd38.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+  <!-- Custom css -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- scripts -->
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 
+
 <body>
-    <h1>Good Luck for The new Project</h1>
+
+  <div class="container-fluid mx-auto">
+    <!-- NAV -->
+
+    <!-- Main container -->
+    <div class="nav-container-fluid justify-content-between">
+      <!-- NAVBAR -->
+      <!-- RED NAVBAR -->
+      <nav class="d-flex navbar justify-content-between col-sm-12 fixed-top navbar-expand-lg navbar-custom c-white ">
+        <div class="weather-date d-none d-lg-block">
+          <div class="weather">
+            <i class='fas fa-cloud-moon-rain'></i>
+            <span class="">16</span>
+            <span class="">Johannesburg</span>
+            <i class="fas fa-angle-right"></i></div>
+          <div class="date"> Wed, Sep 23, 2020 </div>
+        </div>
+        <div class="d-flex newsweek">
+          <h1 class="text-white text-340 d-sm-block d-md-block d-lg-none">Newsweek</h1>
+          <img class="newsweek w-80 justify-content-between d-none d-lg-block" src="images/logo.png" alt="logo-image">
+        </div>
+        <div class="d-flex login-items-340 align-items-center justify-content-between login-subscribe btn">
+          <i class="d-sm-block  d-xl-none material-icons">person</i>
+          <button class="btn-default d-none d-lg-block bg-custom b-white border-0 m-3">LOGIN</button>
+          <button type="button" class="btn col-sm-6 col-md-9 col-lg-8 btn-warning sub sub-340 mr-4 clearfix">SUBSCRIBE<i
+              class="fas c-white fa-angle-right"></i></button>
+          <i class=" d-lg-none d-sm-block  d-md-block material-icons">menu</i>
+        </div>
+      </nav>
+    </div>
+    <!-- rednavbar end here -->
+
+    <div>
+      <nav class=" sub-nav navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse navText">
+          <ul class="navbar-ul c-black navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item secnav">
+              <a class="nav-link-a nav-link " href="#">World.</a>
+            </li>
+            <li class="nav-item secnav">
+              <a class="nav-link" href="#">Business</a>
+            </li>
+            <li class="nav-item secnav">
+              <a class="nav-link" href="#">Tech & Science</a>
+            </li>
+            <li class="nav-item secnav">
+              <a class="nav-link" href="#">culture</a>
+            </li>
+            <li class="nav-item secnav">
+              <a class="nav-link" href="#">Newsgeek</a>
+            </li>
+            <li class="nav-item secnav">
+              <a class="nav-link" href="#">Sports</a>
+            </li>
+            <li class="nav-item secnav">
+              <a class="nav-link" href="#">Health</a>
+            </li>
+            <li class="nav-item secnav">
+              <a class="nav-link" href="#">The Debate</a>
+            </li>
+            <li class="nav-item secnav">
+              <a class="nav-link" href="#">Vantage</a>
+            </li>
+            <li class="nav-item secnav">
+              <a class="nav-link" href="#">Weather</a>
+            </li>
+            <li class="nav-item search-nav">
+              <a class="nav-link hidden-sm" href="#">Search<i class="search-logo fa fa-search"></i></a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+
+
+      <nav class="navbar-third navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link" href="#">TRENDING <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">DONALD TRUMP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">JOE BIDEN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CHINA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CORONAVIRUS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">2020 ELECTION</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+
+
+
+    <!-- Main content starts here -->
+
+    <!-- left-section -->
+
+    <div class="container-fluid grid-main">
+      <div class="row">
+
+        <div class="col-sm-12 col-md-6 col-lg-3 top-stories">
+          <h5 class="top-heading"> FEATURED STORIES</h5>
+          <div class="first">
+            <div class="tag w-100 mb-2">
+              <img src="images/trump1.jpg" alt="trump1" class="img-story1">
+              <span class="text-us">U.S.</span>
+            </div>
+            <h3 class="capt">Trump Praises Police Throwing Aside Journalist 'Like a Bag of Popcorn'</h3>
+            <p>Trump renewed his narrative against the U.S. press at a campaign ralley in Pennsylvania, saying that it's
+              a
+              "beautiful sight" when journalists are removed from broadcasts.</p>
+          </div>
+          <div>
+            <div class="tag w-100 mb-2">
+              <img src="images/trump1.jpg" alt="trump1" class="img-story1">
+              <span class="text-us">U.S.</span>
+            </div>
+            <h3 class="capt">Trump Praises Police Throwing Aside Journalist 'Like a Bag of Popcorn'</h3>
+            <p>Trump renewed his narrative against the U.S. press at a campaign ralley in Pennsylvania, saying that it's
+              a
+              "beautiful sight" when journalists are removed from broadcasts.</p>
+          </div>
+          <div>
+            <div class="tag w-100 mb-2">
+              <img src="images/us1.jpg" alt="trump1" class="img-story1">
+              <span class="text-us">U.S.</span>
+            </div>
+            <h3 class="capt">Trump Praises Police Throwing Aside Journalist 'Like a Bag of Popcorn'</h3>
+            <p>Trump renewed his narrative against the U.S. press at a campaign ralley in Pennsylvania, saying that it's
+              a
+              "beautiful sight" when journalists are removed from broadcasts.</p>
+          </div>
+          <div>
+            <div class="tag w-100 mb-2">
+              <img src="images/us2.jpg" alt="trump1" class="img-story1">
+              <span class="text-us">U.S.</span>
+            </div>
+            <h3 class="capt">Trump Praises Police Throwing Aside Journalist 'Like a Bag of Popcorn'</h3>
+            <p>Trump renewed his narrative against the U.S. press at a campaign ralley in Pennsylvania, saying that it's
+              a
+              "beautiful sight" when journalists are removed from broadcasts.</p>
+          </div>
+          <div>
+            <div class="tag w-100 mb-2">
+              <img src="images/us3.jpg" alt="trump1" class="img-story1">
+              <span class="text-us">U.S.</span>
+            </div>
+            <h3 class="capt">Trump Praises Police Throwing Aside Journalist 'Like a Bag of Popcorn'</h3>
+            <p>Trump renewed his narrative against the U.S. press at a campaign ralley in Pennsylvania, saying that it's
+              a
+              "beautiful sight" when journalists are removed from broadcasts.</p>
+          </div>
+          <div>
+            <div class="tag w-100 mb-2">
+              <img src="images/us1.jpg" alt="trump1" class="img-story1">
+              <span class="text-us">U.S.</span>
+            </div>
+            <h3 class="capt">Trump Praises Police Throwing Aside Journalist 'Like a Bag of Popcorn'</h3>
+            <p>Trump renewed his narrative against the U.S. press at a campaign ralley in Pennsylvania, saying that it's
+              a
+              "beautiful sight" when journalists are removed from broadcasts.</p>
+          </div>
+          <div>
+            <div class="tag w-100 mb-2">
+              <img src="images/us3.jpg" alt="trump1" class="img-story1">
+              <span class="text-us">U.S.</span>
+            </div>
+            <h3 class="capt">Trump Praises Police Throwing Aside Journalist 'Like a Bag of Popcorn'</h3>
+            <p>Trump renewed his narrative against the U.S. press at a campaign ralley in Pennsylvania, saying that it's
+              a
+              "beautiful sight" when journalists are removed from broadcasts.</p>
+          </div>
+          <div>
+            <div class="tag w-100 mb-2">
+              <img src="images/us2.jpg" alt="trump1" class="img-story1">
+              <span class="text-us">U.S.</span>
+            </div>
+            <h3 class="capt">Trump Praises Police Throwing Aside Journalist 'Like a Bag of Popcorn'</h3>
+            <p>Trump renewed his narrative against the U.S. press at a campaign ralley in Pennsylvania, saying that it's
+              a
+              "beautiful sight" when journalists are removed from broadcasts.</p>
+          </div>
+          <div>
+            <div class="tag w-100 mb-2">
+              <img src="images/us3.jpg" alt="trump1" class="img-story1">
+              <span class="text-us">U.S.</span>
+            </div>
+            <h3 class="capt">Trump Praises Police Throwing Aside Journalist 'Like a Bag of Popcorn'</h3>
+            <p>Trump renewed his narrative against the U.S. press at a campaign ralley in Pennsylvania, saying that it's
+              a
+              "beautiful sight" when journalists are removed from broadcasts.</p>
+          </div>
+        </div>
+
+        <!-- left-section-ends -->
+
+        <div class="col-sm-12 col-md-6 container-fluid featured ">
+          <div class="t-1">
+            <h5 class="top-heading pt-4">TOP-STORY</h5>
+            <div class="politics">POLITICS</div>
+            <div class="tag">
+              <img src="images/trump2.png" alt="trump1" class="img-topmid img-fluid">
+              <span class="text-us">U.S.</span>
+            </div>
+            <h3 class="capt">Trump Praises Police Throwing Aside Journalist 'Like a Bag of Popcorn'</h3>
+            <p>Trump renewed his narrative against the U.S. press at a campaign ralley in Pennsylvania, saying that it's
+              a
+              "beautiful sight" when journalists are removed from broadcasts.</p>
+          </div>
+          <div class="container  myturn-grid">
+            <h5 class="top-heading">MY TURN</h5>
+            <div class="row">
+              <div class="col-md-4 sm-12 myturn">
+                <div class="tag">
+                  <img src="images/b1.jpg" alt="corona" class="one">
+                  <span class="text-us">TURN</span>
+                </div>
+                <p class="turntext">Planning a Trip to One of NYC's Recently Opened Museums? What to Know</p>
+              </div>
+              <div class="col-md-4 sm-12  myturn">
+                <div class="tag">
+                  <img src="images/b2.jpg" alt="corona" class="one">
+                  <span class="text-us">TURN</span>
+                </div>
+                <p class="turntext">Planning a Trip to One of NYC's Recently Opened Museums? What to Know</p>
+              </div>
+              <div class="col-md-4 sm-12  myturn">
+                <div class="tag">
+                  <img src="images/b1.jpg" alt="corona" class="one">
+                  <span class="text-us">TURN</span>
+                </div>
+                <p class="turntext">Planning a Trip to One of NYC's Recently Opened Museums? What to Know</p>
+              </div>
+            </div>
+            <h5 class="top-heading">CULTURE & TRAVEL</h5>
+            <div class="row">
+              <div class="col-md-4 sm-12  myturn">
+                <div class="tag">
+                  <img src="images/b2.jpg" alt="corona" class="one">
+                  <span class="text-us">TRAV</span>
+                </div>
+                <p class="turntext">Planning a Trip to One of NYC's Recently Opened Museums? What to Know</p>
+              </div>
+              <div class="col-md-4 sm-12  myturn">
+                <div class="tag">
+                  <img src="images/b1.jpg" alt="corona" class="one">
+                  <span class="text-us">TRAV</span>
+                </div>
+                <p class="turntext">Planning a Trip to One of NYC's Recently Opened Museums? What to Know</p>
+              </div>
+              <div class="col-md-4 sm-12  myturn">
+                <div class="tag">
+                  <img src="images/b2.jpg" alt="corona" class="one">
+                  <span class="text-us">TRAV</span>
+                </div>
+                <p class="turntext">Planning a Trip to One of NYC's Recently Opened Museums? What to Know</p>
+              </div>
+            </div>
+            <!-- more stories section starts here -->
+            <div class="more-stories">
+              <h5 class="top-heading">MORE STORIES</h5>
+              <div class="row morestory">
+                <div class="col-3"><img class="one" src="images/story-2.png" alt="Responsive image"></div>
+                <div class="col-9 image-text">
+                  <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! Architecto
+                    sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! sit amet consectetur
+                    adipisicing elit. Sapiente id laborum vitae cum! est quam mollitia aliquid praesentium, maxime
+                    magnam. Recusandae eaque veniam tempora numquam optio atque expedita repudiandae. </p>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="more-stories ">
+              <div class="row morestory">
+                <div class="col-3"><img class="one" src="images/story-3.png" alt="Responsive image"></div>
+                <div class="col-9 image-text">
+                  <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! Architecto
+                    sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! sit amet consectetur
+                    adipisicing elit. Sapiente id laborum vitae cum! est quam mollitia aliquid praesentium, maxime
+                    magnam. Recusandae eaque veniam tempora numquam optio atque expedita repudiandae. </p>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="">
+              <div class="more-stories ">
+                <div class="row morestory">
+                  <div class="col-3"><img class="one" src="images/story-4.png" alt="Responsive image"></div>
+                  <div class="col-9 image-text">
+                    <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum!
+                      Architecto
+                      sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! sit amet consectetur
+                      adipisicing elit. Sapiente id laborum vitae cum! est quam mollitia aliquid praesentium, maxime
+                      magnam. Recusandae eaque veniam tempora numquam optio atque expedita repudiandae. </p>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="more-stories ">
+                <div class="row morestory">
+                  <div class="col-3"><img class="one" src="images/story-5.png" alt="Responsive image"></div>
+                  <div class="col-9 image-text">
+                    <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum!
+                      Architecto
+                      sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! sit amet consectetur
+                      adipisicing elit. Sapiente id laborum vitae cum! est quam mollitia aliquid praesentium, maxime
+                      magnam. Recusandae eaque veniam tempora numquam optio atque expedita repudiandae. </p>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="more-stories ">
+                <div class="row morestory">
+                  <div class="col-3"><img class="one" src="images/story-6.png" alt="Responsive image"></div>
+                  <div class="col-9 image-text">
+                    <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum!
+                      Architecto
+                      sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! sit amet consectetur
+                      adipisicing elit. Sapiente id laborum vitae cum! est quam mollitia aliquid praesentium, maxime
+                      magnam. Recusandae eaque veniam tempora numquam optio atque expedita repudiandae. </p>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="more-stories ">
+                <div class="row morestory">
+                  <div class="col-3"><img class="one" src="images/story-1.png" alt="Responsive image"></div>
+                  <div class="col-9 image-text">
+                    <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum!
+                      Architecto
+                      sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! sit amet consectetur
+                      adipisicing elit. Sapiente id laborum vitae cum! est quam mollitia aliquid praesentium, maxime
+                      magnam. Recusandae eaque veniam tempora numquam optio atque expedita repudiandae. </p>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="more-stories ">
+                <div class="row morestory">
+                  <div class="col-3"><img class="one" src="images/story-2.png" alt="Responsive image"></div>
+                  <div class="col-9 image-text">
+                    <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum!
+                      Architecto
+                      sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! sit amet consectetur
+                      adipisicing elit. Sapiente id laborum vitae cum! est quam mollitia aliquid praesentium, maxime
+                      magnam. Recusandae eaque veniam tempora numquam optio atque expedita repudiandae. </p>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="more-stories ">
+                <div class="row morestory">
+                  <div class="col-3"><img class="one" src="images/story-3.png" alt="Responsive image"></div>
+                  <div class="col-9 image-text">
+                    <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum!
+                      Architecto
+                      sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! sit amet consectetur
+                      adipisicing elit. Sapiente id laborum vitae cum! est quam mollitia aliquid praesentium, maxime
+                      magnam. Recusandae eaque veniam tempora numquam optio atque expedita repudiandae. </p>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="more-stories ">
+                <div class="row morestory">
+                  <div class="col-3"><img class="one" src="images/story-4.png" alt="Responsive image"></div>
+                  <div class="col-9 image-text">
+                    <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum!
+                      Architecto
+                      sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! sit amet consectetur
+                      adipisicing elit. Sapiente id laborum vitae cum! est quam mollitia aliquid praesentium, maxime
+                      magnam. Recusandae eaque veniam tempora numquam optio atque expedita repudiandae. </p>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="more-stories ">
+                <div class="row morestory">
+                  <div class="col-3"><img class="one" src="images/story-11.png" alt="Responsive image"></div>
+                  <div class="col-9 image-text">
+                    <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum!
+                      Architecto
+                      sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! sit amet consectetur
+                      adipisicing elit. Sapiente id laborum vitae cum! est quam mollitia aliquid praesentium, maxime
+                      magnam. Recusandae eaque veniam tempora numquam optio atque expedita repudiandae. </p>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="more-stories ">
+                <div class="row morestory">
+                  <div class="col-3"><img class="one" src="images/story-1.png" alt="Responsive image"></div>
+                  <div class="col-9 image-text">
+                    <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum!
+                      Architecto
+                      sit amet consectetur adipisicing elit. Sapiente id laborum vitae cum! sit amet consectetur
+                      adipisicing elit. Sapiente id laborum vitae cum! est quam mollitia aliquid praesentium, maxime
+                      magnam. Recusandae eaque veniam tempora numquam optio atque expedita repudiandae. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- more stories section ends here -->
+
+        <div class="col-sm-12 col-md-12 col-lg-3 container-fluid debate">
+          <div class="t-1">
+            <h5 class="top-heading pt-4">DEBATE</h5>
+          </div>
+          <div class="card col-md-12 mb-3 col-sm-12">
+            <div class="row no-gutters ">
+              <div class="l-img col-3 col-md-3">
+                <img src="images/d-1.png" class="card-img" alt="...">
+              </div>
+              <div class="col-9">
+                <div class="card-body">
+                  <h5 class="card-title  w-100">The Best (Cyber) Defense Is a Good (Cyber) OffenseCard title</h5>
+                  <p class="card-text">BY JAMIL N. JAFFER</p>
+                </div>
+              </div>
+            </div>
+            <br>
+
+            <div class="vs d-none d-lg-block clearfix">VS</div>
+
+
+            <div class="row ">
+              <div class="col-9">
+                <div class="card-body">
+                  <h5 class="card-title w-100">The Best (Cyber) Defense Is a Good (Cyber) OffenseCard title</h5>
+                  <p class="card-text">BY JAMIL N. JAFFER</p>
+                </div>
+              </div>
+              <div class="l-img col-3">
+                <img src="images/d-4.png" class="card-img w-100" alt="...">
+              </div>
+            </div>
+
+
+            <div class="t-1">
+              <h5 class="top-heading">OPINION</h5>
+            </div>
+
+            <div class="row no-gutters">
+              <div class="l-img col-3 ">
+                <img src="images/d-1.png" class="card-img  w-100" alt="...">
+              </div>
+              <div class="col-9 ">
+                <div class="card-body">
+                  <h5 class="card-title w-100">The Best (Cyber) Defense Is a Good (Cyber) OffenseCard title</h5>
+                  <p class="card-text">BY JAMIL N. JAFFER</p>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="row no-gutters">
+              <div class="l-img col-3">
+                <img src="images/d-1.png" class="card-img" alt="...">
+              </div>
+              <div class="col-9">
+                <div class="card-body">
+                  <h5 class="card-title w-100">The Best (Cyber) Defense Is a Good (Cyber) OffenseCard title</h5>
+                  <p class="card-text">BY JAMIL N. JAFFER</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="row no-gutters">
+              <div class="l-img col-3">
+                <img src="images/d-1.png" class="card-img" alt="...">
+              </div>
+              <div class="col-9">
+                <div class="card-body">
+                  <h5 class="card-title w-100">The Best (Cyber) Defense Is a Good (Cyber) OffenseCard title</h5>
+                  <p class="card-text">BY JAMIL N. JAFFER</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="row no-gutters">
+              <div class="l-img col-3">
+                <img src="images/d-1.png" class="card-img" alt="...">
+              </div>
+              <div class="col-9">
+                <div class="card-body">
+                  <h5 class="card-title w-100">The Best (Cyber) Defense Is a Good (Cyber) OffenseCard title</h5>
+                  <p class="card-text">BY JAMIL N. JAFFER</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="row no-gutters">
+              <div class="l-img col-3">
+                <img src="images/d-1.png" class="card-img" alt="...">
+              </div>
+              <div class="col-9">
+                <div class="card-body">
+                  <h5 class="card-title w-100">The Best (Cyber) Defense Is a Good (Cyber) OffenseCard title</h5>
+                  <p class="card-text">BY JAMIL N. JAFFER</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="row no-gutters">
+              <div class="l-img col-3">
+                <img src="images/d-1.png" class="card-img" alt="...">
+              </div>
+              <div class="col-9">
+                <div class="card-body">
+                  <h5 class="card-title w-100">The Best (Cyber) Defense Is a Good (Cyber) OffenseCard title</h5>
+                  <p class="card-text">BY JAMIL N. JAFFER</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="row no-gutters">
+              <div class="l-img col-3">
+                <img src="images/d-1.png" class="card-img" alt="...">
+              </div>
+              <div class="col-9">
+                <div class="card-body">
+                  <h5 class="card-title w-100">The Best (Cyber) Defense Is a Good (Cyber) OffenseCard title</h5>
+                  <p class="card-text">BY JAMIL N. JAFFER</p>
+
+                </div>
+              </div>
+            </div>
+
+
+            <form class="sign-up mx-auto">
+              <div class="form-row">
+
+                <div class="form-group col-2 col-sm-2 ">
+                  <img src="images/d-debate-form.png" alt="d-debate-form">
+                </div>
+                <div class="col-9 col-sm-10 w-100">
+                  <h5 class="font-weight-bolder">START YOU DAY WITH FOUR ARTICLES</h5>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email address">
+              </div>
+              <button type="button" class="btn btn-danger btn-md btn-block">Free Sign Up</button>
+            </form>
+
+
+            <div class="card debate-cards">
+              <img src="images/us1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title-debate">The Best Hospitals in the World</h5>
+                <p class="card-text-debate">Newsweek has partnered with Statista Inc.,
+                  the global market research and consumer data firm, to develop the ranking of the world's best
+                  hospitals
+                  for the third year.
+                  ard's content.</p>
+              </div>
+            </div>
+
+
+            <div class="card debate-cards">
+              <img src="images/us1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title-debate">The Best Hospitals in the World</h5>
+                <p class="card-text-debate">Newsweek has partnered with Statista Inc.,
+                  the global market research and consumer data firm, to develop the ranking of the world's best
+                  hospitals
+                  for the third year.
+                  ard's content.</p>
+              </div>
+            </div>
+
+
+            <div class="card debate-cards">
+              <img src="images/us1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title-debate">The Best Hospitals in the World</h5>
+                <p class="card-text-debate">Newsweek has partnered with Statista Inc.,
+                  the global market research and consumer data firm, to develop the ranking of the world's best
+                  hospitals
+                  for the third year.
+                  ard's content.</p>
+              </div>
+            </div>
+
+
+            <div class="card debate-cards">
+              <img src="images/hos.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title-debate">The Best Hospitals in the World</h5>
+                <p class="card-text-debate">Newsweek has partnered with Statista Inc.,
+                  the global market research and consumer data firm, to develop the ranking of the world's best
+                  hospitals
+                  for the third year.
+                  ard's content.</p>
+              </div>
+            </div>
+
+
+            <div class="card debate-cards">
+              <img src="images/us1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title-debate">The Best Hospitals in the World</h5>
+                <p class="card-text-debate">Newsweek has partnered with Statista Inc.,
+                  the global market research and consumer data firm, to develop the ranking of the world's best
+                  hospitals
+                  for the third year.
+                  ard's content.</p>
+              </div>
+            </div>
+
+
+            <div class="card debate-cards">
+              <img src="images/us1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title-debate">The Best Hospitals in the World</h5>
+                <p class="card-text-debate">Newsweek has partnered with Statista Inc.,
+                  the global market research and consumer data firm, to develop the ranking of the world's best
+                  hospitals
+                  for the third year.
+                  ard's content.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="maga-heading">
+          <div class="maga-image">
+            <img src="images/d-debate-form.png" alt="...">
+          </div>
+          <div class="maga-text">
+            <p>IN THE MAGAZINE</p>
+          </div>
+        </div>
+
+        <div class="container-fluid-magazine">
+          <div class="row row-cols-4">
+            <div class="col-md-3 col-sm-12 col-12 border ">
+              <div class="card">
+                <img src="images/manmag.jfif" class="card-img-top w-75 img-responsive center-block d-block mx-auto"
+                  alt="...">
+                <div class="f-n">
+                  <p class="features">Features</p>
+                  <p class="news">News</p>
+                </div>
+                <h5 class="card-title-magazine">When Will There Be a COVID-19 Vaccine and
+                  Should You Trust That It's Safe?</h5>
+              </div>
+            </div>
+            <!-- Cards section -->
+            <div class="col-md-3 col-sm-12 col-12">
+              <div class="card">
+                <img src="images/shot.jfif" class="card-img-top w-100" alt="shot">
+                <div class="f-n">
+                  <p class="features">Features</p>
+                  <p class="news">News</p>
+                </div>
+                <h5 class="card-title-magazine">Americans' Very Right to Keep and Bear Arms Is on the Ballot This
+                  Election?</h5>
+              </div>
+            </div>
+
+
+            <div class="col-md-3 col-sm-12 col-12">
+              <div class="card">
+                <img src="images/bengi.jfif" class="card-img-top" alt="...">
+                <div class="f-n">
+                  <p class="features">Features</p>
+                  <p class="news">News</p>
+                </div>
+                <h5 class="card-title-magazine">When Will There Be a COVID-19 Vaccine and
+                  Should You Trust That It's Safe?</h5>
+              </div>
+            </div>
+
+
+
+            <div class="col-md-3 col-sm-12 col-12">
+              <div class="card">
+                <img src="images/aot.jfif" class="card-img-top" alt="...">
+                <div class="f-n">
+                  <p class="features">Features</p>
+                  <p class="news">News</p>
+                </div>
+                <h5 class="card-title-magazine">Individual Gun Ownership Is Not at Stake in This Election?</h5>
+              </div>
+            </div>
+
+
+
+            <div class="col-md-3 col-sm-12 col-12">
+              <div class="card">
+                <img src="images/cult3.jfif" class="card-img-top-1 w-100 " alt="food">
+                <div class="f-n">
+                  <p class="features">Features</p>
+                  <p class="news">News</p>
+                </div>
+                <h5 class="card-title-magazine">The War and Treaty Look for Healing on their new album?</h5>
+              </div>
+            </div>
+
+
+
+            <div class="col-md-3 col-sm-12 col-12">
+              <div class="card">
+                <img src="images/cult2.jfif" class="card-img-top-1 w-100" alt="signing">
+                <div class="f-n">
+                  <p class="features">Features</p>
+                  <p class="news">News</p>
+                </div>
+                <h5 class="card-title-magazine">When Will There Be a COVID-19 Vaccine and
+                  Should You Trust That It's Safe?</h5>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-12 col-12">
+              <div class="card">
+                <img src="images/cult1.jfif" class="card-img-top-1 w-100" alt="man on stage">
+                <div class="f-n">
+                  <p class="features">Features</p>
+                  <p class="news">News</p>
+                </div>
+                <h5 class="card-title-magazine">When Will There Be a COVID-19 Vaccine and
+                  Should You Trust That It's Safe?</h5>
+              </div>
+            </div>
+
+
+
+            <div class="col-md-3 col-sm-12 col-12">
+              <div class="card">
+                <img src="images/cult2.jfif" class="card-img-top-1 w-100" alt="singing girl">
+                <div class="f-n">
+                  <p class="features">Features</p>
+                  <p class="news">News</p>
+                </div>
+                <h5 class="card-title-magazine">When Will There Be a COVID-19 Vaccine and
+                  Should You Trust That It's Safe?</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="maga-heading">
+          <div class="maga-image">
+            <img src="images/d-debate-form.png" alt="...">
+          </div>
+          <div class="maga-text">
+            <p>EDITOR'S PICK</p>
+          </div>
+        </div>
+
+
+        <div class="container-fluid-editor">
+          <div class="row">
+            <div class="col border border-white">
+              <div class="card">
+                <img src="images/editor1.jfif" class="card-img-top" alt="...">
+                <div class="f-n">
+                  <p class="features">Features</p>
+                  <p class="news">News</p>
+                </div>
+                <h5 class="card-title-magazine">Five States Where Coronavirus Deaths Are Falling Fastest?</h5>
+                <p class="card-text-editor">A handful of southern states have each reported a drop in new COVID-19
+                  deaths
+                  in recent weeks.</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="images/editor2.jfif" class="card-img-top" alt="...">
+                <div class="f-n">
+                  <p class="features">Features</p>
+                  <p class="news">News</p>
+                </div>
+                <h5 class="card-title-magazine">Every NFL Player to Speak Out Over Breonna Taylor Verdict</h5>
+                <p class="card-text-editor">New Orleans Saints duo Michael Thomas and Demario Davis were among the
+                  players
+                  calling out the verdict.</p>
+              </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="images/editor3.jfif" class="card-img-top" alt="...">
+                <div class="f-n">
+                  <p class="features">Features</p>
+                  <p class="news">News</p>
+                </div>
+                <h5 class="card-title-magazine">Donald Trump 'Not a Fan' of Meghan Markle After Her U.S. Election
+                  Comments
+                </h5>
+                <p class="card-text-editor">The U.S. President piled pressure on Meghan Markle and Prince Harry as the
+                  couple faced calls in Britain to be stripped of their royal titles.</p>
+              </div>
+            </div>
+
+
+
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="images/editor4.jfif" class="card-img-top" alt="...">
+                <div class="f-n">
+                  <p class="features">Features</p>
+                  <p class="news">News</p>
+                </div>
+                <h5 class="card-title-magazine">Stimulus Bill Needed by 89% of Voters, Dems and GOP Split Delay Blame:
+                  Poll</h5>
+                <p class="card-text-editor">It has been nearly six months since the CARES Act was signed by the
+                  president,
+                  with a stalemate delaying a further such relief package.</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="images/editor5.jfif" class="card-img-top" alt="...">
+                <div class="f-n">
+                  <p class="features">Features</p>
+                  <p class="news">News</p>
+                </div>
+                <h5 class="card-title-magazine">Trump 'Praying For' Police Shot Amid Protests, Demands Law and Order
+                </h5>
+                <p class="card-text-editor">The president issued the message after two officers were shot in Kentucky
+                  amid
+                  protests following a court decision regarding Breonna Taylor's deat.</p>
+              </div>
+            </div>
+
+
+
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="images/editor6.jfif" class="card-img-top" alt="...">
+                <div class="f-n">
+                  <p class="features">Features</p>
+                  <p class="news">News</p>
+                </div>
+                <h5 class="card-title-magazine">Doodle for Google 2020 Winner is Texas Fifth-Grader with Friendship
+                  Drawing</h5>
+                <p class="card-text-editor">Sharon Sara has secured a $30,000 college scholarship for winning the
+                  contest
+                  with her "Together As One" artwork.</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="images/editor7.jfif" class="card-img-top" alt="...">
+                <div class="f-n">
+                  <p class="features">Features</p>
+                  <p class="news">News</p>
+                </div>
+                <h5 class="card-title-magazine">Justin Trudeau Says Second Wave of COVID-19 is 'Already Underway' in
+                  Canada</h5>
+                <p class="card-text-editor">"It's all too likely that we won't be gathering for Thanksgiving, but we
+                  still
+                  have a shot at Christmas," Canadian Prime Minister Justin Trudeau said while discussing the COVID-19
+                  pandemic during a national televised address on Wednesday.</p>
+              </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-3">
+              <div class="card">
+                <img src="images/editor8.jfif" class="card-img-top" alt="...">
+                <div class="f-n">
+                  <p class="features">Features</p>
+                  <p class="news">News</p>
+                </div>
+                <h5 class="card-title-magazine">Amoeba Found in Soil Turns Part of Gardener's Brain Into Liquid</h5>
+                <p class="card-text-editor">"It's all too likely that we won't be gathering for Thanksgiving, but we
+                  still
+                  have a shot at Christmas," Canadian Prime Minister Justin Trudeau said while discussing the COVID-19
+                  pandemic during a national televised address on Wednesday.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="red-text"> U.S</div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/news1.jfif" class="card-img-top" alt="...">
+              <h5 class="card-title-magazine">GOP Candidate, Two Others Arrested for Not Wearing Masks at Church Event
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/editor8.jfif" class="card-img-top" alt="...">
+              <h5 class="card-title-magazine">Facebook, FBI Eye China As They Fight Foreign Election Interference</h5>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="more-stories">
+              <div class="row morestory">
+                <div class="col-3"><img class="one" src="images/story-2.png" alt="Responsive image"></div>
+                <div class="col-9 image-text">
+                  <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="more-stories ">
+              <div class="row morestory">
+                <div class="col-3"><img class="one" src="images/story-3.png" alt="Responsive image"></div>
+                <div class="col-9 image-text">
+                  <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="more-stories ">
+              <div class="row morestory">
+                <div class="col-3"><img class="one" src="images/story-4.png" alt="Responsive image"></div>
+                <div class="col-9 image-text">
+                  <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="red-text"> WORLD</div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/news1.jfif" class="card-img-top" alt="..">
+              <h5 class="card-title-magazine">GOP Candidate, Two Others Arrested for Not Wearing Masks at Church Event
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/editor8.jfif" class="card-img-top" alt="..">
+              <h5 class="card-title-magazine">Facebook, FBI Eye China As They Fight Foreign Election Interference</h5>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="more-stories">
+              <div class="row morestory">
+                <div class="col-3"><img class="one" src="images/story-2.png" alt="Responsive image"></div>
+                <div class="col-9 image-text">
+                  <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="more-stories ">
+              <div class="row morestory">
+                <div class="col-3"><img class="one" src="images/story-3.png" alt="Responsive image"></div>
+                <div class="col-9 image-text">
+                  <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="more-stories ">
+              <div class="row morestory">
+                <div class="col-3"><img class="one" src="images/story-4.png" alt="Responsive image"></div>
+                <div class="col-9 image-text">
+                  <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="red-text"> WORLD</div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/news1.jfif" class="card-img-top" alt="..">
+              <h5 class="card-title-magazine">GOP Candidate, Two Others Arrested for Not Wearing Masks at Church Event
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/editor8.jfif" class="card-img-top" alt="..">
+              <h5 class="card-title-magazine">Facebook, FBI Eye China As They Fight Foreign Election Interference</h5>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="more-stories">
+              <div class="row morestory">
+                <div class="col-3"><img class="one" src="images/story-2.png" alt="Responsive image"></div>
+                <div class="col-9 image-text">
+                  <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="more-stories ">
+              <div class="row morestory">
+                <div class="col-3"><img class="one" src="images/story-3.png" alt="Responsive image"></div>
+                <div class="col-9 image-text">
+                  <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="more-stories ">
+              <div class="row morestory">
+                <div class="col-3"><img class="one" src="images/story-4.png" alt="Responsive image"></div>
+                <div class="col-9 image-text">
+                  <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+        <hr>
+
+        <div class="red-text"> U.S</div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/news1.jfif" class="card-img-top" alt="...">
+              <h5 class="card-title-magazine">GOP Candidate, Two Others Arrested for Not Wearing Masks at Church Event
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/editor8.jfif" class="card-img-top" alt="...">
+              <h5 class="card-title-magazine">Facebook, FBI Eye China As They Fight Foreign Election Interference</h5>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="more-stories">
+              <div class="row morestory">
+                <div class="col-3"><img class="one" src="images/story-2.png" alt="Responsive image"></div>
+                <div class="col-9 image-text">
+                  <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="more-stories ">
+              <div class="row morestory">
+                <div class="col-3"><img class="one" src="images/story-3.png" alt="Responsive image"></div>
+                <div class="col-9 image-text">
+                  <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="more-stories ">
+              <div class="row morestory">
+                <div class="col-3"><img class="one" src="images/story-4.png" alt="Responsive image"></div>
+                <div class="col-9 image-text">
+                  <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <hr>
+
+        <div class="red-text"> WORLD</div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/news1.jfif" class="card-img-top" alt="..">
+              <h5 class="card-title-magazine">GOP Candidate, Two Others Arrested for Not Wearing Masks at Church Event
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/editor8.jfif" class="card-img-top" alt="..">
+              <h5 class="card-title-magazine">Facebook, FBI Eye China As They Fight Foreign Election Interference</h5>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="more-stories">
+              <div class="row morestory">
+                <div class="col-3"><img class="one" src="images/story-2.png" alt="Responsive image"></div>
+                <div class="col-9 image-text">
+                  <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="more-stories ">
+              <div class="row morestory">
+                <div class="col-3"><img class="one" src="images/story-3.png" alt="Responsive image"></div>
+                <div class="col-9 image-text">
+                  <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="more-stories ">
+              <div class="row morestory">
+                <div class="col-3"><img class="one" src="images/story-4.png" alt="Responsive image"></div>
+                <div class="col-9 image-text">
+                  <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="red-text"> WORLD</div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/news1.jfif" class="card-img-top" alt="..">
+              <h5 class="card-title-magazine">GOP Candidate, Two Others Arrested for Not Wearing Masks at Church Event
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/editor8.jfif" class="card-img-top" alt="..">
+              <h5 class="card-title-magazine">Facebook, FBI Eye China As They Fight Foreign Election Interference</h5>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="more-stories">
+              <div class="row morestory">
+                <div class="col-3"><img class="one" src="images/story-2.png" alt="Responsive image"></div>
+                <div class="col-9 image-text">
+                  <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="more-stories ">
+              <div class="row morestory">
+                <div class="col-3"><img class="one" src="images/story-3.png" alt="Responsive image"></div>
+                <div class="col-9 image-text">
+                  <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="more-stories ">
+              <div class="row morestory">
+                <div class="col-3"><img class="one" src="images/story-4.png" alt="Responsive image"></div>
+                <div class="col-9 image-text">
+                  <h5>Brazilian City Ravaged by Coronavirus Reached Herd Immunity in Just Months</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <hr>
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12 mh-100 mw-100 border-0">
+            <div class="red-text">SUBSCRIBE</div>
+            <div class=" mb-3 px-lg-5 bg-light pt-4 pb-1">
+              <div class="row  mx-lg-n5">
+                <div class="d-none d-sm-block col-md-4 col-12  mx-auto py-3 px-lg-5 sub-img-340">
+                  <img src="images/sub.jpg" class="card-img  img-sub" alt="sub-l">
+                  <span class=" text-sm-override d-block d-sm-none ">
+                    In-depth Stories You Don't See Elsewhere About Topics You Want to
+                    ReadCard title.
+                  </span>
+                </div>
+                <div class="row d-lg-none">
+                  <div class="col-sm-12">
+                    <div class="flow">
+                      <img src="images/sub.jpg" alt="subscribe" class="flow-image">
+                      <h2 class="flow-text">In-Depth Stories You Don't See <br> Elsewhere About Topics You want to read!
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-8 col py-3 px-lg-5">
+                  <div class="card-body px-lg-5 d-none d-sm-none d-md-block">
+                    <h5 class="card-title-subscribe indepth-sm">In-depth Stories You Don't See Elsewhere About Topics
+                      You Want to
+                      ReadCard title.</h5>
+                    <h6 class="card-text-subscribe">All Access + Weekly Delivery.
+                      <br>
+                      Choose A Membership That is Perfect for You!</h6>
+                    <button type="submit" class="colbtn btn-danger btn-md mt-2">SUBSCRIBE <i
+                        class="fas c-white fa-angle-right"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="red-text">NEWSLETTER</div>
+            <div class="row">
+              <div class="col mt-3 pb-3 col-lg-3">
+                <img src="images/sub2.jfif" class="card-img w-100" alt="img-sub-r">
+              </div>
+              <div class="col col-md-4col-sm-12">
+                <h6 class="side-mag pt-3">The Starting 5</h6>
+                <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+
+                <div class="form-group">
+                  <input type="text" class="form-control w-75" id="usr">
+                  <button type="submit" class="btn btn-danger btn-md mt-2">SUBSCRIBE <i
+                      class="fas c-white fa-angle-right"></i></button>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+  </div> <!-- Footer -->
+  <footer class="container-fluid page-footer font-small blue ">
+
+    <!-- Footer Links -->
+    <div class="container-fluid">
+
+      <!-- Grid row -->
+      <div class="d-flex social-media-profiles align-items-end justify-content-between row">
+
+        <!-- Grid column -->
+        <div class="d-flex  mt-md-0 mt-3">
+
+          <!-- Content -->
+          <h1 class=" text-danger font-weight-bolder">Newsweek</h1>
+          <p class="mt-3  ml-1">© 2020 NEWSWEEK</p>
+        </div>
+        <div class="justify-content-end">
+              <ul class="justify-content-end col-md-12 col-sm-12 list-group list-group-horizontal-sm list-group-horizontal justify-content-lg-end ">
+                <li class="border-0 text-secondary list-group-item"><i class="fab fa-facebook-square fa-2x"></i></li>
+                <li class="border-0 text-secondary list-group-item"><i class="fab fa-twitter fa-2x"></i></li>
+                <li class="border-0 text-secondary list-group-item"><i class="fab fa-facebook-square fa-2x"></i></li>
+                <li class="border-0 text-secondary list-group-item"><i class="fab fa-tumblr fa-2x"></i></li>
+                <li class="border-0 text-secondary list-group-item"><i class="fab fa-linkedin-in fa-2x"></i></li>
+              </ul>
+        </div>
+
+      </div>
+      <hr />
+      <div class="d-flex row editions h-15">
+        <ul
+          class=" col-md-12 col-sm-12 d-flex list-group list-group-horizontal-sm list-group-horizontal list-group-horizontal-lg align-items-start h-50">
+          <li class="border-0 text-secondary list-group-item">
+          <li>
+            <p class="font-weight-bold ">Editions:</p>
+          </li>
+          <li class=" border-bottom-0 border-top-0 list-group-item ">
+          <li>U.S. Edition</li>
+          <li class=" align-items-start border-right border-bottom-0 border-top-0 list-group-item">
+          <li>日本</li>
+          <li class="align-items-start border-right border-top-0 border-bottom-0 list-group-item ">
+          <li>Pakistan</li>
+          <li class="border-right border-top-0 border-bottom-0 list-group-item">
+          <li>Polska</li>
+          <li class="border-right-0 border-top-0 border-bottom-0 list-group-item">
+          <li>România</li>
+        </ul>
+      </div>
+
+      <div class="row h-25">
+        <ul
+          class="d-flex flex-wrap col-md-12  about-us col-sm-12 list-group list-group-horizontal-sm list-group-horizontal align-items-start h-50">
+          <li class=" border-0 text-secondary list-group-item ">
+          <li>About Us</li>
+          <li class=" border-bottom-0 border-top-0 list-group-item">
+          <li>Corrections</li>
+          <li class=" border-right border-bottom-0 border-top-0 list-group-item">
+          <li>Contact Us</li>
+          <li class=" border-right border-top-0 border-bottom-0 list-group-item ">
+          <li>Editorial Guidelines</li>
+          <li class="border-right border-top-0 border-bottom-0 list-group-item">
+          <li>Advertise</li>
+          <li class="border-right-0 border-top-0 border-bottom-0 list-group-item-horizantal-sm">Copyright</li>
+          <!--</ul>
+        </div>
+        <div class="row d-flex about-us h-25">
+          <ul class="d-flex col-md-12 col-sm-12 list-group list-group-horizontal-sm list-group-horizontal align-items-start h-50">-->
+          <li class=" border-right border-top-0 border-bottom-0 list-group-item-horizantal-sm">
+          <li>Terms & Conditions</li>
+          <li class=" border-right border-bottom-0 border-top-0 list-group-item list-group-item-horizantal-sm">
+          <li>Cookie Policy</li>
+          <li class="border-right border-top-0 border-bottom-0 list-group-item list-group-item-horizantal-sm ">
+          <li>Pakistan</li>
+          <li class="border-right border-top-0 border-bottom-0 list-group-item ">
+          <li>Terms of Sale</li>
+          <li class="border-right-0 border-top-0 border-bottom-0 list-group-item ">
+          <li>Archive</li>
+
+        </ul>
+      </div>
+      <div class="d-flex row anouncements list-group-horizontal h-25">
+        <ul
+          class="d-flex col-sm-12 col-md-12 list-group list-group-horizontal-lg list-group-horizontal align-items-start h-50">
+          <li class=" border-right border-top-0 text-secondary list-group-item">
+          <li>Announcements</li>
+          <li class=" border-0 text-secondary list-group-item">
+          <li>preferences</li>
+        </ul>
+      </div>
+
+
+
+    </div>
+
+
+  </footer>
+  <!-- Footer -->
+
+
+  <!-- Bootstrap cdns -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
